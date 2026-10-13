@@ -1,0 +1,107 @@
+@media (max-width: 760px) {
+  nav.mobile-open { display: flex; position: absolute; top: 70px; left: 0; right: 0; background: #130305; padding: 25px 20px; flex-direction: column; gap: 19px; }
+  nav.mobile-open a { color: #fff; }
+}
+
+/* PIVUX — experiencia móvil refinada */
+@media (max-width: 760px) {
+  html, body { width: 100%; overflow-x: hidden; }
+  body { -webkit-text-size-adjust: 100%; }
+  .announcement { height: 25px; padding: 0 10px; gap: 7px; white-space: nowrap; }
+  .header { position: absolute; top: 25px; height: 68px; padding: 0 18px; }
+  .header .logo-official { width: 125px; height: 52px; }
+  .header-actions { margin-left: auto; }
+  .cart-button { font-size: 8px; padding: 8px 9px; }
+  .menu-button { font-size: 23px; padding: 7px; }
+  nav.mobile-open { top: 68px; z-index: 20; box-shadow: 0 12px 25px rgba(0,0,0,.25); }
+  nav.mobile-open a { font-size: 12px; padding: 5px 0; }
+
+  .hero { padding: 125px 18px 78px; }
+  .hero:before { width: 100%; height: 44%; top: auto; bottom: 0; opacity: .95; }
+  .hero-copy { max-width: 100%; }
+  .hero-logo-mark { max-width: 145px; height: auto; }
+  .hero h1 { font-size: clamp(48px, 14vw, 66px); line-height: .91; }
+  .hero-description { font-size: 14px; max-width: 290px; margin: 23px 0; }
+  .hero .actions { gap: 15px; }
+  .hero .button { padding: 14px 15px; }
+  .hero-visual { height: min(92vw, 420px); min-height: 285px; margin: 42px 0 0; }
+  .hero-video { object-position: center; }
+  .hero-tag { padding: 11px; }
+  .hero-tag strong { font-size: 15px; }
+  .frame-label { font-size: 7px; }
+  .hero-index { bottom: 25px; font-size: 8px; }
+
+  .section { padding: 78px 18px; }
+  .intro h2, .product-heading h2, .faq h2 { font-size: clamp(39px, 12vw, 58px); }
+  .intro-image { max-height: 360px; }
+  .manifesto { padding: 70px 18px 0; }
+  .benefits { grid-template-columns: 1fr; }
+  .benefit, .benefit:nth-child(2) { border-right: 0; border-bottom: 1px solid #a59f99; margin-right: 0; padding: 30px 0; }
+  .benefit:last-child { border-bottom: 0; }
+  .benefit h3 { margin-top: 27px; }
+  .benefit p { max-width: 300px; }
+
+  .product-image { max-height: 430px; }
+  .product-image > img { min-height: 280px; object-fit: cover; }
+  .callout { font-size: 7px; line-height: 1.25; }
+  .callout i { width: 28px; }
+  .product-specs { margin-top: 35px; }
+  .product-specs p { max-width: none; }
+
+  .vector-stage { min-height: 390px; }
+  .product-viewer { inset: 10px 8px 112px; }
+  .product-viewer img { width: 100%; }
+  .product-viewer img.detail-view { width: 165%; }
+  .viewer-controls { left: 10px; right: 10px; bottom: 10px; gap: 5px; }
+  .viewer-controls button { flex: 1 1 auto; min-width: 75px; padding: 8px 6px; font-size: 7px; }
+
+  .in-use .use-image { height: 280px; }
+  .use-copy { padding: 65px 18px 70px; }
+  .use-copy h2 { font-size: clamp(42px, 12vw, 60px); }
+  .mascot-card { width: 100%; max-width: none; }
+
+  .gallery { padding: 75px 18px; }
+  .gallery h2 { font-size: clamp(38px, 11vw, 55px); }
+  .gallery-plan { width: 78%; }
+
+  .shop { padding: 70px 18px; }
+  .shop-image { height: 300px; margin-bottom: 35px; }
+  .shop h2 { font-size: clamp(40px, 11vw, 57px); }
+  .shop-copy .actions { flex-direction: column; align-items: stretch; }
+  .shop-copy .button { width: 100%; justify-content: space-between; }
+
+  .faq { padding-top: 75px; }
+  .accordion summary { font-size: 13px; gap: 15px; }
+  .accordion p { font-size: 13px; }
+  .conversion { padding: 65px 18px; }
+  .conversion h2 { font-size: clamp(40px, 11vw, 58px); }
+  .conversion-brand { height: 115px; }
+  .conversion-brand img { width: 245px; }
+
+  footer { padding: 55px 18px 22px; }
+  .footer-top { padding-bottom: 38px; }
+  .footer-links { grid-template-columns: 1fr 1fr; gap: 28px 18px; padding-bottom: 42px; }
+  .footer-links a { font-size: 10px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  .pivux-home-button { right: 13px; bottom: 13px; padding: 7px 9px 7px 7px; box-shadow: 4px 4px 0 var(--ink); }
+  .pivux-home-mark { width: 24px; height: 24px; font-size: 19px; }
+  .pivux-home-label { font-size: 8px; }
+
+  .cart-panel { width: 100%; padding: 20px; }
+  dialog { padding: 25px 20px; }
+  dialog h2 { font-size: 34px; }
+}
+
+@media (max-width: 380px) {
+  .header .logo-official { width: 110px; }
+  .cart-button { display: none; }
+  .hero h1 { font-size: 46px; }
+  .hero .actions { align-items: stretch; flex-direction: column; }
+  .hero .button, .hero .text-link { width: 100%; }
+  .benefit { padding-left: 0; }
+  .viewer-controls button { min-width: 67px; font-size: 6.5px; }
+}
+
+/* PIVUX: todas las tipografias sin inclinacion */
+*, *::before, *::after { font-style: normal !important; transform: none; }

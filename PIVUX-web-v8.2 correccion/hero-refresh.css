@@ -1,0 +1,8 @@
+/* Hero inspirado en la paleta y franjas oficiales entregadas por PIVUX. */
+.hero{background:linear-gradient(90deg,#e30613 0 4%,#bd1c23 4% 10%,#761318 10% 16%,#401013 16% 23%,#130305 23% 100%)}
+.hero:before{display:none}.header .logo-official{width:245px;height:82px}.hero-logo-mark{display:block;width:min(310px,75%);height:112px;object-fit:contain;object-position:left center;margin:-15px 0 10px}.hero-copy{padding-left:9vw}.hero-visual{padding-left:0}.hero h1{font-size:clamp(45px,5.7vw,86px)}
+.product-viewer{display:grid;place-items:center}.product-viewer img,.product-viewer img.detail-view{display:block;width:auto!important;height:100%!important;max-width:100%;max-height:100%;object-fit:contain;object-position:center;mix-blend-mode:multiply}.product-viewer img{transition:opacity .25s ease}.viewer-controls{right:16px}.viewer-controls button{background:#fff}.viewer-controls button.active,.viewer-controls button:hover{background:#130305;color:#fff}
+@media(max-width:760px){.hero{background:linear-gradient(90deg,#e30613 0 7%,#bd1c23 7% 16%,#761318 16% 26%,#401013 26% 36%,#130305 36% 100%)}.header .logo-official{width:145px;height:58px}.hero-copy{padding-left:11vw}.hero-logo-mark{width:220px;height:82px;margin:0 0 6px}.hero-visual{margin-left:10vw}.viewer-controls{left:12px;right:12px;gap:4px}.viewer-controls button{font-size:7px;padding:7px 6px}}
+
+/* PIVUX: todas las tipografias sin inclinacion */
+*, *::before, *::after { font-style: normal !important; transform: none; }
